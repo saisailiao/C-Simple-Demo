@@ -1,0 +1,15 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Please choose from one of the following options...</p>
+    <p><a href="https://localhost:7299/Deposit">1.Deposit</a></p>
+    <p><a href="https://localhost:7299/Withdraw">2.Withdraw</a></p>
+    <p><a href="https://localhost:7299/Balance">3.Show Balance</a></p>
+
+    <P>Today is: @ViewData["TimeStamp"]</P>
+</div>
